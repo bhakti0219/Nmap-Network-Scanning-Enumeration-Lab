@@ -72,6 +72,7 @@ OS Detection: Nmap was used to perform operating system fingerprinting and ident
 Command:
 nmap -sC <target_ip>
 
+<img width="1156" height="524" alt="image" src="https://github.com/user-attachments/assets/98355fac-982e-4420-8341-94f9a9430592" />
 
 
 NSE Enumeration: Default Nmap Scripting Engine (NSE) scripts were executed to gather additional information about the target services.
