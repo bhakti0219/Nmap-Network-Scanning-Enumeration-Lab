@@ -73,9 +73,80 @@ Command:
 nmap -sC <target_ip>
 
 <img width="1156" height="524" alt="image" src="https://github.com/user-attachments/assets/98355fac-982e-4420-8341-94f9a9430592" />
+<img width="654" height="567" alt="image" src="https://github.com/user-attachments/assets/64ef959e-3b23-4475-994c-41e126d0adac" />
+<img width="789" height="312" alt="image" src="https://github.com/user-attachments/assets/6d573278-e05a-4059-bcfe-3ad7262d87b1" />
+
 
 
 NSE Enumeration: Default Nmap Scripting Engine (NSE) scripts were executed to gather additional information about the target services.
+
+### 7. UDP Scan
+
+Command:
+sudo nmap -sU <target_ip>
+
+<img width="749" height="448" alt="image" src="https://github.com/user-attachments/assets/09378bf0-1a62-40b0-b819-5c3c8018b316" />
+
+UDP Scan: Nmap scanned the target for open or filtered UDP ports and identified available UDP services.
+
+### 8. FIN Scan
+
+Command:
+sudo nmap -sF <target_ip>
+
+<img width="558" height="508" alt="image" src="https://github.com/user-attachments/assets/e9e87375-904a-4524-895a-182f26b987ca" />
+<img width="486" height="73" alt="image" src="https://github.com/user-attachments/assets/6a8f0d13-cfef-4066-a837-8950923a64dc" />
+
+FIN Scan: A TCP FIN scan was performed to analyze the target's response to FIN packets and identify possible open or filtered ports.
+
+### 9. Xmas Scan
+
+Command:
+sudo nmap -sX <target_ip>
+
+<img width="533" height="515" alt="image" src="https://github.com/user-attachments/assets/800cd659-33f6-4b6a-b489-975eb5c8f3cc" />
+
+Xmas Scan: A TCP Xmas scan was performed using FIN, PSH, and URG flags to analyze the target's response to specially crafted TCP packets.
+
+### 10. Comprehensive Scan
+
+Command:
+sudo nmap -sC -sV -O <target_ip>
+
+<img width="1270" height="496" alt="image" src="https://github.com/user-attachments/assets/78b539cd-d184-4a05-ae00-705193b3e14c" />
+<img width="1057" height="514" alt="image" src="https://github.com/user-attachments/assets/a41c72cf-13d4-4b98-bb00-bc034f91b9c1" />
+<img width="898" height="308" alt="image" src="https://github.com/user-attachments/assets/84d67c08-af58-4d49-b7f6-736053b9637d" />
+
+Comprehensive Scan: This scan combines service detection, version detection, operating system detection, and NSE scripts to perform detailed enumeration of the target.
+
+### 11.Save Scan Results
+
+Command:
+nmap -sC -sV -O <target_ip> -oN scan-results.txt
+
+<img width="878" height="190" alt="image" src="https://github.com/user-attachments/assets/49aa8bd0-be9c-4850-9196-c383355dacaa" />
+
+Report Generation: The scan results were saved to a text file for documentation and future analysis.
+
+## 📌 Learning Outcomes
+
+After completing this project, I learned how to:
+
+-Verify target connectivity
+-Discover active hosts
+-Perform TCP and UDP port scanning
+-Detect services and versions
+-Identify the target operating system
+-Use Nmap NSE scripts for enumeration
+-Perform FIN and Xmas stealth scans
+-Save scan results for reporting
+-Document a network scanning assessment in a professional GitHub project
+
+
+
+
+
+
 
 
 
