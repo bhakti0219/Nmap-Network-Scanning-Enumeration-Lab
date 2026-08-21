@@ -27,7 +27,8 @@ This project demonstrates the use of Nmap (Network Mapper) for network discovery
 Command:
 ping -c 4 <target_ip>
 
-<img width="575" height="298" alt="Screenshot 2026-08-18 133503" />
+<img width="629" height="190" alt="image" src="https://github.com/user-attachments/assets/4a03b5fb-00fa-4c36-971b-2b8c31c02636" />
+
 
 Target Connectivity: Verified that the target machine is reachable from Kali Linux before starting the Nmap scan.
 
