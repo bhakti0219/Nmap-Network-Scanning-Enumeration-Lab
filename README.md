@@ -125,7 +125,7 @@ Comprehensive Scan: This scan combines service detection, version detection, ope
 Command:
 nmap -sC -sV -O <target_ip> -oN scan-results.txt
 
-<img width="878" height="190" alt="image" src="https://github.com/user-attachments/assets/49aa8bd0-be9c-4850-9196-c383355dacaa" />
+<img width="1349" height="255" alt="image" src="https://github.com/user-attachments/assets/22abe0dd-2737-4d8a-b361-42a956b91d99" />
 
 Report Generation: The scan results were saved to a text file for documentation and future analysis.
 
